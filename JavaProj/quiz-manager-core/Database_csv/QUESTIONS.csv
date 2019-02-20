@@ -1,0 +1,71 @@
+"ID";"TEXT";"TYPE";"LEVEL"
+"32";"What is OutPut ?   
+// filename Test.java 
+class Test { 
+    public static void main(String[] args) { 
+        for(int i = 0; true; i++) { 
+            System.out.println(""Hello""); 
+            break; 
+        } 
+    } 
+}";"O";"2"
+"33";"What is OutPut ? 
+// filename Main.java 
+class Main { 
+    public static void main(String args[]) { 
+        System.out.println(fun()); 
+    }   
+    static int fun() { 
+        return 20; 
+    } 
+}";"O";"3"
+"34";"A process that involves recognizing and focusing on the important characteristics of a situation or object is known as: ";"M";"1"
+"35";"Which statement is true regarding an object? ";"M";"1"
+"36";"In object-oriented programming, new classes can be defined by extending existing classes. This is an example of: ";"M";"1"
+"37";"Which of the following is a member of the java.lang package? ";"M";"2"
+"38";"Which of the following has a method names flush( )? ";"M";"3"
+"39";"Which one of these is a valid method declaration? ";"M";"2"
+"40";"What is output?
+import java.io.IOException; 
+import java.util.EmptyStackException; 
+  
+public class newclass 
+{ 
+    public static void main(String[] args) 
+    { 
+        try
+        { 
+            System.out.printf(""%d"", 1); 
+            throw(new Exception()); 
+        } 
+        catch(IOException e) 
+        { 
+            System.out.printf(""%d"", 2); 
+        } 
+        catch(EmptyStackException e) 
+        { 
+            System.out.printf(""%d"", 3); 
+        } 
+        catch(Exception e) 
+        { 
+            System.out.printf(""%d"", 4); 
+        } 
+        finally
+        { 
+            System.out.printf(""%d"", 5); 
+        } 
+    } 
+} ";"M";"3"
+"31";"What is OutPut ? 
+// filename Main.java 
+class Test { 
+    protected int x, y; 
+} 
+
+class Main { 
+    public static void main(String args[]) { 
+        Test t = new Test(); 
+        System.out.println(t.x); 
+    } 
+} 
+";"O";"1"
